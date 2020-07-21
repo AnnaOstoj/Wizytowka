@@ -1,0 +1,19 @@
+body {
+    background-color: #EEEAF2;
+}
+.header img {
+    height: 200px;
+    width: auto;
+}
+.title {
+    background-color: #D3CCDD;
+}
+ul {
+    list-style-type: none;
+}
+h2 {
+    color: #6C538F;
+}
+.send-button {
+    background-color: #BCACD3;
+}

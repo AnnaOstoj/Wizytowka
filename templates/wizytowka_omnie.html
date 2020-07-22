@@ -1,0 +1,12 @@
+{% extends "parent.html" %}
+{% block content %}
+<ul>
+    {% for item in items %}
+    <li><b>{{item}}: </b>{{items[item]}}</li>
+    {% endfor %}
+</ul>
+
+<form>
+    <input type="submit" value="Dane kontaktowe" class="send-button">
+</form>
+{% endblock %}

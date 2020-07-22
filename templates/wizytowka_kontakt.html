@@ -1,0 +1,18 @@
+{% extends "parent.html" %}
+{% block content %}
+<div class="contact">
+    <h2>Kontakt:</h2>
+    <ul>
+        {% for item in items %}
+        <li><b>{{item}}: </b>{{items[item]}}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<h3>Wyślij wiadomość</h3>
+<form>
+    <label for="message">Twoja wiadomość</label><br>
+    <input type="text" id="message" name="message"><br>
+    <input type="submit" value="Wyślij" class="send-button">
+</form>
+{% endblock %}
